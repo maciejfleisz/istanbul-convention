@@ -20,17 +20,23 @@ h1,h2,h3,h4,h5 {
 
 p {
 	font-family: 'Raleway', sans-serif;
-	line-height: ;
-	letter-spacing: ;
-	color: ;
-	font-size: ;
 }
 /* HEADER */
-.header {
-  background-image: url("assets/konwencja12.png");
-  height: 699px;
+.topheader {
+  height: 150px;
   font-size: 22;
   font-weight: 800;
+  background: #3791ff;
+}
+.headimg {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background: #3791ff;
+}
+.headjoin {
+  background: #3791ff;
+  margin-left: 0px;
 }
 /* NAVBAR */
 .navbar {
