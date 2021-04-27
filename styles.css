@@ -40,9 +40,10 @@ p {
   font-weight: 800;
 }
 
-.btn {
+.button {
   weight: 184px;
   height: 51px;
+  color: #FFE16B;
 }
 .donate {
 
