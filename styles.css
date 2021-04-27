@@ -46,5 +46,31 @@ p {
   color: #FFE16B;
 }
 .donate {
+}
 
+/* TWO COLUMN SECTION */
+.first {
+  background-color: #695F9A;
+  padding-left: 0px;
+  height: 822px;
+  width: 50%;
+  color: #ffffff;
+}
+.title {
+  font-size: 43;
+  font-weight: 800;
+  padding-left: 13%;
+  padding-top: 8%;
+}
+.whitetxt {
+  font-size: 25;
+  padding-left: 13%;
+  padding-right: 13%;
+  line-height: 1.5;
+}
+.
+.second {
+  background-color: #ffffff;
+  height: 822px;
+  width: 50%;
 }
