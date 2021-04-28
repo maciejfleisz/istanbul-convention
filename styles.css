@@ -114,7 +114,7 @@ p {
   padding-left:50%;
   padding-right:17%;
   font-weight: 800;
-  
+
 }
 
 .btnremo {
@@ -123,3 +123,23 @@ p {
 }
 
 /* FEMINOTEKA SECTION */
+
+.femino {
+  height: 681px;
+  background-color: #3791ff;
+}
+
+.femtitle {
+  font-size: 43;
+  font-weight: 800;
+  padding-left: 13%;
+  padding-top: 11%;
+  color: #ffffff;
+}
+.femtxt {
+  font-size: 25;
+  padding-left: 13%;
+  padding-right:5%;
+  font-weight: bolder;
+  color: #ffffff;
+}
