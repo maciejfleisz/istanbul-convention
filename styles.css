@@ -201,7 +201,7 @@ p {
 }
 /* SHARE SECTION */
 .share {
-	height: 681px;
+	height: 581px;
 }
 
 .shtitle {
@@ -213,5 +213,22 @@ p {
 }
 
 .shbutton {
-		margin-left: 50%;
+		margin-left: 55%;
+		padding-left: 5%;
+}
+
+.shtext {
+	font-size: 48px;
+	font-weight: 800;
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 45%;
+	margin-top: -4%;
+}
+
+.share1 {
+
+}
+.share2 {
+	background-color: white;
 }
