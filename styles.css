@@ -156,3 +156,10 @@ p {
   margin-left: 13%;
   margin-top: 2%;
 }
+
+/* PETITION */
+
+.petition {
+  background-color: grey;
+  height: 1582px;
+}
