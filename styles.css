@@ -162,4 +162,15 @@ p {
 .petition {
   background-color: grey;
   height: 1582px;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	padding-left: 22%;
+	padding-right: 25%;
+}
+
+.petfield {
+	background-color: #F4F4F4;
+	width: 1054px;
+	height: 1300px;
+
 }
