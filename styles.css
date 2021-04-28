@@ -160,17 +160,35 @@ p {
 /* PETITION */
 
 .petition {
-  background-color: grey;
+  background-color: #F4F4F4;
   height: 1582px;
 	padding-top: 10%;
 	padding-bottom: 5%;
-	padding-left: 22%;
-	padding-right: 25%;
+	padding-left: 24%;
+	padding-right: 24%;
 }
 
 .petfield {
-	background-color: #F4F4F4;
+	background-color: #ffffff;
 	width: 1054px;
 	height: 1300px;
+}
 
+.petitle {
+  font-size: 28;
+  font-weight: 800;
+  text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.petext {
+	font-size: 28;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.pelist {
+	margin-left: 5%;
+	margin-right: 5%;
 }
