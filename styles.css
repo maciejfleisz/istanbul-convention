@@ -200,6 +200,9 @@ p {
 	width: 300px;
 }
 /* SHARE SECTION */
+.share {
+	height: 681px;
+}
 
 .shtitle {
 	  font-size: 72px;
@@ -207,4 +210,8 @@ p {
 	  text-align: center;
 		padding-top: 5%;
 		padding-bottom: 5%;
+}
+
+.shbutton {
+		margin-left: 50%;
 }
