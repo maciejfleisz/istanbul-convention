@@ -161,7 +161,7 @@ p {
 
 .petition {
   background-color: #F4F4F4;
-  height: 1582px;
+  height: 1882px;
 	padding-top: 10%;
 	padding-bottom: 5%;
 	padding-left: 24%;
@@ -171,11 +171,11 @@ p {
 .petfield {
 	background-color: #ffffff;
 	width: 1054px;
-	height: 1300px;
+	height: 1500px;
 }
 
 .petitle {
-  font-size: 28;
+  font-size: 28px;
   font-weight: 800;
   text-align: center;
 	padding-top: 5%;
@@ -183,7 +183,7 @@ p {
 }
 
 .petext {
-	font-size: 28;
+	font-size: 28px;
 	padding-left: 5%;
 	padding-right: 5%;
 }
@@ -191,4 +191,11 @@ p {
 .pelist {
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+.petbutton {
+	margin-left: 34%;
+	margin-right: 34%;
+	margin-top: 5%;
+	width: 300px;
 }
