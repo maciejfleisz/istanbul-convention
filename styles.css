@@ -136,10 +136,23 @@ p {
   padding-top: 11%;
   color: #ffffff;
 }
+
 .femtxt {
   font-size: 25;
   padding-left: 13%;
-  padding-right:5%;
+  padding-right:2%;
   font-weight: bolder;
   color: #ffffff;
+  line-height: 2;
+}
+
+.fempic {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  height: 100%;
+}
+
+.btnfemi {
+  margin-left: 13%;
+  margin-top: 2%;
 }
