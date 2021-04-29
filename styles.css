@@ -57,7 +57,9 @@ p {
 	border-radius: 3%;
 	margin-left: 50%;
 }
-
+.nav-button {
+	margin-top: -1.5%;
+}
 .nav-link {
 	font-size: 22;
 	font-weight: 700;
