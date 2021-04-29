@@ -275,3 +275,7 @@ p {
 	border-radius: 3%;
 }
 /* FOOTER */
+footer {
+	height: 219px;
+	padding-top: 3%;
+}
