@@ -198,6 +198,16 @@ p {
 	margin-right: 34%;
 	margin-top: 5%;
 	width: 300px;
+	background-color: #000000;
+	border: none;
+	color: #FFE16B;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	border-radius: 3%;
 }
 /* SHARE SECTION */
 .share {
@@ -250,7 +260,7 @@ p {
 	padding-right: 16%;
 }
 
-.button2 {
+.buttonsup {
 	background-color: #FE4141;
 	border: none;
 	color: white;
@@ -264,3 +274,4 @@ p {
 	margin-right: 45%;
 	border-radius: 3%;
 }
+/* FOOTER */
