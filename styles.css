@@ -28,15 +28,22 @@ p {
   font-weight: 800;
   background: #3791ff;
 }
-.headimg {
+.head-img {
   padding: 0px;
   margin: 0px;
-  width: 100%;
+  width: 110%;
   background: #3791ff;
 }
 .headjoin {
   background: #3791ff;
   margin-left: 0px;
+}
+@media screen and (max-width: 762px) {
+
+}
+
+@media screen and (max-width: 489px) {
+
 }
 /* NAVBAR */
 .navbar {
