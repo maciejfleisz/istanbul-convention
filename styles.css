@@ -31,7 +31,7 @@ p {
 .head-img {
   padding: 0px;
   margin: 0px;
-  width: 110%;
+  width:50%;
   background: #3791ff;
 }
 .headjoin {
@@ -43,7 +43,12 @@ p {
 }
 
 @media screen and (max-width: 489px) {
-
+	.head-img {
+	  padding: 0px;
+	  margin: 0px;
+	  width:100%;
+	  background: #3791ff;
+	}
 }
 /* NAVBAR */
 .navbar {
