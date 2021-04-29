@@ -39,7 +39,25 @@ p {
   margin-left: 0px;
 }
 /* NAVBAR */
+.navbutton {
+	background-color: #000000;
+	border: none;
+	color: #FFE16B;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	width: 184px;
+	height: 51px;
+	border-radius: 3%;
+}
 
+.nav-link {
+	font-size: 22;
+	font-weight: 700;
+	color: #000000;
+}
 /* TWO COLUMN SECTION */
 .first {
   background-color: #3791ff;
