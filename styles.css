@@ -39,20 +39,6 @@ p {
   margin-left: 0px;
 }
 /* NAVBAR */
-.navbar {
-  background-color: #D4CFE2;
-  height: 129px;
-  font-size: 22;
-  font-weight: 800;
-}
-
-.button {
-  weight: 184px;
-  height: 51px;
-  color: #FFE16B;
-}
-.donate {
-}
 
 /* TWO COLUMN SECTION */
 .first {
