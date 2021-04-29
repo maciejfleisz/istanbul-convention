@@ -280,7 +280,7 @@ footer {
 	padding-top: 3%;
 }
 .footext {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight:800;
 	color: black;
 }
@@ -288,5 +288,32 @@ footer {
 .askpic{
 	width: 153px;
 	margin-top: -3%;
-	margin-left: -5%
+
+}
+
+.footext2 {
+	font-size: 21px;
+	font-weight:bold;
+	color: black;
+	text-align: left;
+	margin-left: -25%;
+	margin-top: -1%;
+}
+
+.onepic {
+	width: 131px;
+}
+
+.numbers {
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+.footext3 {
+	font-size: 21px;
+	font-weight:bold;
+	color: black;
+	text-align: center;
 }
