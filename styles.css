@@ -228,6 +228,39 @@ p {
 
 /* SUPPORT SECTION */
 .support {
-	height: 563px;
-	
+	height: 720px;
+	background-image: url('assets/footer.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.suptitle {
+	font-size: 64px;
+	font-weight: 800;
+	text-align: center;
+	padding-top: 8%;
+	color: #ffffff;
+}
+.suptext {
+	font-size: 36px;
+	font-weight: 800;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	color: #ffffff;
+	padding-left: 16%;
+	padding-right: 16%;
+}
+
+.button2 {
+	background-color: #FE4141;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 600;
+	margin-left: 45%;
+	margin-right: 45%;
+	border-radius: 3%;
 }
