@@ -47,7 +47,8 @@ p {
 }
 /* NAVBAR */
 .navbar {
-	color: #000000;
+	color: #FFE16B;
+	background: #ffffff;
 }
 
 .navbutton {
@@ -99,14 +100,14 @@ p {
   line-height: 1.5;
   font-weight: 600;
 }
-.
+
 .second {
-  background-color: #ffffff;
+  background-color: #000000;
   height: 822px;
   width: 50%;
+	color: #ffffff;
   padding-left: 13%;
   padding-right: 13%;
-  margin-top: 25%;
   padding-bottom: 25%
 }
 
