@@ -39,6 +39,10 @@ p {
   margin-left: 0px;
 }
 /* NAVBAR */
+.navbar {
+	color: #000000;
+}
+
 .navbutton {
 	background-color: #000000;
 	border: none;
@@ -51,12 +55,19 @@ p {
 	width: 184px;
 	height: 51px;
 	border-radius: 3%;
+	margin-left: 50%;
 }
 
 .nav-link {
 	font-size: 22;
 	font-weight: 700;
 	color: #000000;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.navbar-toggler-icon {
+	color: black;
 }
 /* TWO COLUMN SECTION */
 .first {
