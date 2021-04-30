@@ -44,7 +44,7 @@ p {
   background: #3791ff;
   margin-left: 0px;
 }
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 1000px) {
 	.head-img {
 	  padding-top: 50px;
 		padding-bottom: -2%;
@@ -61,7 +61,7 @@ p {
 	}
 }
 
-@media screen and (max-width: 489px) {
+@media screen and (max-width: 1000px) {
 	.head-img {
 	  padding-top: 50px;
 		padding-bottom: -2%;
@@ -112,7 +112,7 @@ p {
 	color: black;
 }
 
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 1000px) {
 	.navbutton {
 		margin-left: 1%;
 	}
@@ -121,7 +121,7 @@ p {
 		margin-left: 5%;
 	}
 }
-@media screen and (max-width: 489px) {
+@media screen and (max-width: 1000px) {
 .navbutton {
 	margin-left: 1%;
 }
@@ -182,14 +182,15 @@ p {
       font-weight: 800;
     }
 
-		@media screen and (max-width: 762px) {
+		@media screen and (max-width: 1000px) {
 			.mobfirst {
 				display: block;
 			}
 			.blue {
 				background-color: #3791FF;
 				color: #ffffff;
-				height: 1100px;
+				height: auto;
+				padding-bottom: 3%;
 			}
 			.title {
 			  font-size: 30;
@@ -258,25 +259,27 @@ p {
   margin-right: 17%;
   margin-top: 5%;
 }
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 1000px) {
 
 	.readmore {
-	  height: 563px;
-	  /* background-image: url("paper.gif"); */
+	  height: 400px;
+	  background-image: url("assets/mlotek.png");
 	  background-color: #F4F4F4;
 	}
-
+	.remo1 {
+		display: none;
+	}
 	.remotxt {
 	  font-size: 30;
-	  padding-top: 5%;
-	  padding-left:5%;
-	  padding-right:5%;
+	  padding-top: 10%;
+	  padding-left:8%;
+	  padding-right:8%;
 	  font-weight: 800;
 	}
 
 	.btnremo {
-	  margin-right: 5%;
-	  margin-top: 5%;
+	  margin-right: 13%;
+	  margin-top: 2%;
 	}
 }
 /* FEMINOTEKA SECTION */
@@ -304,16 +307,51 @@ p {
 }
 
 .fempic {
-  padding-top: 20%;
+  padding-top: 30%;
   padding-bottom: 20%;
-  height: 100%;
+  height: 75%;
 }
 
 .btnfemi {
   margin-left: 13%;
   margin-top: 2%;
+	width: 300px;
 }
+@media screen and (max-width: 1000px) {
+	.femino {
+	  height: auto;
+	  background-color: #3791ff;
+	}
 
+	.femtitle {
+	  font-size: 30;
+	  font-weight: 800;
+	  padding-left: 5%;
+	  padding-top: 5%;
+	  color: #ffffff;
+	}
+
+	.femtxt {
+	  font-size: 20;
+	  padding-left: 2%;
+	  padding-right:2%;
+	  font-weight: bolder;
+	  color: #ffffff;
+	  line-height: 2;
+	}
+
+	.fempic {
+	  padding-top: 5%;
+	  padding-bottom: 5%;
+	  height: 100%;
+	}
+
+	.btnfemi {
+	  margin-left: 2%;
+	  margin-top: 2%;
+		width: 200px;
+	}
+}
 /* PETITION */
 
 .petition {
