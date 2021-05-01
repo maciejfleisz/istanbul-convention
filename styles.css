@@ -103,7 +103,7 @@ p {
 .nav-link {
 	font-size: 22;
 	font-weight: 700;
-	color: #000000;
+	color: #FFE16B;
 	margin-left: 15%;
 	margin-right: 15%;
 }
@@ -256,9 +256,10 @@ p {
 }
 
 .btnremo {
-  margin-right: 17%;
-  margin-top: 5%;
+  margin-top: 3%;
+
 }
+
 @media screen and (max-width: 1000px) {
 
 	.readmore {
@@ -278,7 +279,6 @@ p {
 	}
 
 	.btnremo {
-	  margin-right: 13%;
 	  margin-top: 2%;
 	}
 }
