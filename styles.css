@@ -155,24 +155,31 @@ p {
 
 
 
+
 .navbar-toggler-icon {
 	color: black;
 }
 
 @media screen and (max-width: 1000px) {
-	.navbutton {
+	.navbutton2 {
 		margin-left: 1%;
+		margin-bottom: 1%
 	}
-
+	.soclink2 {
+		margin-left: 5% !important;
+	}
 	.nav-link {
 		margin-left: 5%;
 	}
 }
 @media screen and (max-width: 1000px) {
-.navbutton {
+.navbutton2 {
 	margin-left: 1%;
+	margin-bottom: 1%;
 }
-
+.soclink2 {
+	margin-left: 5% !important;
+}
 .nav-link {
 	margin-left: 5%;
 }
@@ -185,7 +192,7 @@ p {
 .first {
   background-color: #3791ff;
   padding-left: 0px;
-  height: 822px;
+  padding-bottom: 5%;
   width: 50%;
   color: #ffffff;
 }
@@ -289,21 +296,21 @@ p {
 		}
 /* READMORE SECTION */
 .readmore {
-  height: 563px;
-
   background-color: #F4F4F4;
 }
 
 .remotxt {
-  font-size: 30;
-  padding-top: 5%;
-  padding-left:50%;
-  padding-right:17%;
+  font-size: 35;
+  padding-top: 10%;
+  padding-left:30%;
+  padding-right:30%;
   font-weight: 800;
 }
 
 .btnremo {
-  margin-top: 3%;
+	margin-left: 50%;
+	margin-top: 5%;
+	margin-bottom: 10%;
 
 }
 
@@ -326,7 +333,7 @@ p {
 	}
 
 	.btnremo {
-		margin-left: 8%;
+		margin-left: 50%;
 	}
 }
 /* FEMINOTEKA SECTION */
