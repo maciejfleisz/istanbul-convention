@@ -279,7 +279,8 @@ p {
 	}
 
 	.btnremo {
-	  margin-top: 2%;
+	 font-size: 28;
+
 	}
 }
 /* FEMINOTEKA SECTION */
@@ -293,7 +294,7 @@ p {
   font-size: 43;
   font-weight: 800;
   padding-left: 13%;
-  padding-top: 11%;
+  padding-top: 5%;
   color: #ffffff;
 }
 
@@ -307,10 +308,15 @@ p {
 }
 
 .fempic {
-  padding-top: 30%;
-  padding-bottom: 20%;
-  height: 75%;
+ padding-top: 8%;
+ padding-right:25%;
+ width: 60%;
+
 }
+.fem2 {
+	margin-left: -10%;
+}
+
 
 .btnfemi {
   margin-left: 13%;
@@ -333,23 +339,24 @@ p {
 
 	.femtxt {
 	  font-size: 20;
-	  padding-left: 2%;
-	  padding-right:2%;
+	  padding-left: 5%;
+	  padding-right:5%;
 	  font-weight: bolder;
 	  color: #ffffff;
 	  line-height: 2;
 	}
 
-	.fempic {
-	  padding-top: 5%;
-	  padding-bottom: 5%;
-	  height: 100%;
+	.fem2 {
+		display: none;
 	}
 
 	.btnfemi {
 	  margin-left: 2%;
+		margin-right: 0%;
 	  margin-top: 2%;
-		width: 200px;
+		
+
+		margin-bottom: 5%;
 	}
 }
 /* PETITION */
