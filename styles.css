@@ -80,9 +80,12 @@ p {
 /* NAVBAR */
 .navbar {
 	color: #FFE16B;
-	background: #ffffff;
+	background: #000000;
 }
 
+.navbar-custom {
+    background-color: #000000;
+}
 .navbutton {
 	background-color: #000000;
 	border: none;
