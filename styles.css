@@ -552,6 +552,8 @@ p {
 	.suptitle {
 		font-size: 48px;
 		padding-top: 8%;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 	.suptext {
 		font-size: 36px;
@@ -615,4 +617,51 @@ footer {
 	font-weight:bold;
 	color: black;
 	text-align: center;
+}
+@media screen and (max-width: 1200px) {
+footer {
+	height: auto;
+	padding-top: 3%;
+}
+.footext {
+	font-size: 20px;
+	font-weight:800;
+	color: black;
+	text-align: center;
+}
+
+.askpic{
+	width: 153px;
+}
+
+.footext2 {
+	font-size: 21px;
+	font-weight:bold;
+	color: black;
+	text-align: center;
+	margin-left: 2%;
+	margin-top: 0%;
+}
+
+.onepic {
+	width: 131px;
+}
+
+.numbers {
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+.footext3 {
+	font-size: 21px;
+	font-weight:bold;
+	color: black;
+	text-align: center;
+}
+
+.asect {
+	padding: -10%;
+}
 }
