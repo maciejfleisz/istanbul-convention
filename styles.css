@@ -409,7 +409,7 @@ p {
 	border-radius: 3%;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1200px) {
 	.petition {
 	  background-color: #F4F4F4;
 	  height: auto;
@@ -473,6 +473,34 @@ p {
 	padding-left: 5%;
 	padding-right: 45%;
 	margin-top: -4%;
+}
+@media screen and (max-width: 1200px) {
+	.share {
+		height: auto;
+}
+
+
+.shtitle {
+	  font-size: 48px;
+	  font-weight: 800;
+	  text-align: center;
+		padding-top: 5%;
+		padding-bottom: 5%;
+}
+
+.shbutton {
+		margin-left: 2%;
+		margin-bottom: 5%;
+}
+.shtext {
+	font-size: 38px;
+	font-weight: 800;
+	text-align: center;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
 }
 
 /* SUPPORT SECTION */
