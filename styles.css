@@ -81,16 +81,29 @@ p {
 .navbar {
 	color: #FFE16B;
 	background: #000000;
-	margin: 0px;
+	padding-top: 5%;
 }
 
 .navbar-custom {
     background-color: #000000;
 }
+
+/* change the link color */
+.nav-link {
+    color:  #FFE16B !important;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #FFE16B;
+}
+
+
 .navbutton {
-	background-color: #3791FF;
+	background-color: #000000;
 	border: none;
-	color: #ffffff;
+	color: #FFE16B;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -101,6 +114,24 @@ p {
 	border-radius: 3%;
 	margin-left: 50%;
 }
+
+.navbutton2 {
+	background-color: #3791FF;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 184px;
+	height: 51px;
+	border-radius: 3%;
+	margin-left: 50%;
+}
+
 .nav-button {
 	margin-top: -1.5%;
 }
