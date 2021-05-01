@@ -279,8 +279,7 @@ p {
 	}
 
 	.btnremo {
-	 font-size: 28;
-
+		margin-left: 8%;
 	}
 }
 /* FEMINOTEKA SECTION */
@@ -351,12 +350,10 @@ p {
 	}
 
 	.btnfemi {
-	  margin-left: 2%;
+	  margin-left: 5%;
 		margin-right: 0%;
 	  margin-top: 2%;
-		
-
-		margin-bottom: 5%;
+		margin-bottom: 10%;
 	}
 }
 /* PETITION */
