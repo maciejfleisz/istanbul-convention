@@ -243,7 +243,7 @@ p {
 /* READMORE SECTION */
 .readmore {
   height: 563px;
-  /* background-image: url("paper.gif"); */
+
   background-color: #F4F4F4;
 }
 
@@ -264,7 +264,7 @@ p {
 
 	.readmore {
 	  height: 400px;
-	  background-image: url("assets/mlotek.png");
+
 	  background-color: #F4F4F4;
 	}
 	.remo1 {
@@ -310,7 +310,6 @@ p {
  padding-top: 8%;
  padding-right:25%;
  width: 60%;
-
 }
 .fem2 {
 	margin-left: -10%;
@@ -385,6 +384,7 @@ p {
 	font-size: 28px;
 	padding-left: 5%;
 	padding-right: 5%;
+
 }
 
 .pelist {
@@ -409,7 +409,7 @@ p {
 	border-radius: 3%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 720px) {
 	.petition {
 	  background-color: #F4F4F4;
 	  height: auto;
@@ -422,6 +422,29 @@ p {
 		background-color: #ffffff;
 		width: auto;
 		height: auto;
+	}
+	.petitle {
+	  font-size: 28px;
+	  font-weight: 800;
+	  text-align: center;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	.petbutton {
+
+		margin-left:15%;
+		margin-bottom: 10%;
+		width: 300px;
+		background-color: #000000;
+		border: none;
+		color: #FFE16B;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 24px;
+		font-weight: bold;
+		border-radius: 3%;
 	}
 
 }
