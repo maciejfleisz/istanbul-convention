@@ -81,15 +81,16 @@ p {
 .navbar {
 	color: #FFE16B;
 	background: #000000;
+	margin: 0px;
 }
 
 .navbar-custom {
     background-color: #000000;
 }
 .navbutton {
-	background-color: #000000;
+	background-color: #3791FF;
 	border: none;
-	color: #FFE16B;
+	color: #ffffff;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
