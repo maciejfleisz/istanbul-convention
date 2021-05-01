@@ -541,6 +541,29 @@ p {
 	margin-right: 45%;
 	border-radius: 3%;
 }
+
+@media screen and (max-width: 1200px) {
+	.support {
+		height: auto;
+		background-image: url('assets/footer.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.suptitle {
+		font-size: 48px;
+		padding-top: 8%;
+	}
+	.suptext {
+		font-size: 36px;
+		font-weight: 800;
+		padding-top: 2%;
+		padding-bottom: 3%;
+		color: #ffffff;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+}
 /* FOOTER */
 footer {
 	height: 219px;
