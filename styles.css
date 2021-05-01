@@ -81,7 +81,6 @@ p {
 .navbar {
 	color: #FFE16B;
 	background: #000000;
-	padding-top: 5%;
 }
 
 .navbar-custom {
@@ -91,6 +90,8 @@ p {
 /* change the link color */
 .nav-link {
     color:  #FFE16B !important;
+		padding-top: 5% !important;
+
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
@@ -124,7 +125,6 @@ p {
 	display: inline-block;
 	font-size: 24px;
 	font-weight: bold;
-	margin-top: 10%;
 	margin-bottom: 10%;
 	width: 184px;
 	height: 51px;
@@ -142,6 +142,18 @@ p {
 	margin-left: 15%;
 	margin-right: 15%;
 }
+.soclink1 {
+	margin-right: 1% !important;
+}
+
+.soclink2 {
+	margin-left: 1% !important;
+}
+.fa-facebook {
+	margin-right: 1%;
+}
+
+
 
 .navbar-toggler-icon {
 	color: black;
