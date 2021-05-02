@@ -158,6 +158,21 @@ p {
   color: black;
 }
 
+@media screen and (max-width: 1450px) {
+.nav-link {
+	margin-left: 15%;
+	margin-right: 2%;
+	display: grid;
+}
+}
+
+@media screen and (max-width: 1200px) {
+.nav-link {
+	margin-left: 15%;
+	margin-right: auto;
+}
+}
+
 @media screen and (max-width: 1000px) {
   .navbutton2 {
     margin-left: 1%;
@@ -168,6 +183,9 @@ p {
   }
   .nav-link {
     margin-left: 5%;
+		margin-right: auto;
+
+
   }
 }
 @media screen and (max-width: 1000px) {
@@ -435,10 +453,8 @@ p {
 }
 
 .petbutton {
-  margin-left: 34%;
-  margin-right: 34%;
-  margin-top: 5%;
-  margin-bottom: 10%;
+
+
   width: 300px;
   background-color: #000000;
   border: none;
@@ -446,10 +462,15 @@ p {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+	display: grid;
+	margin: auto;
   font-size: 24px;
   font-weight: bold;
   border-radius: 3%;
+}
+.container {
+
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -474,8 +495,7 @@ p {
     padding-bottom: 5%;
   }
   .petbutton {
-    margin-left: 40%;
-    margin-right: 40%;
+
     margin-bottom: 10%;
     width: 300px;
     background-color: #000000;
@@ -484,7 +504,8 @@ p {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+		display: grid;
+		margin: auto;
     font-size: 24px;
     font-weight: bold;
     border-radius: 3%;
@@ -492,7 +513,7 @@ p {
 }
 /* SHARE SECTION */
 .share {
-  height: 581px;
+  height: auto;
 }
 
 .shtitle {
@@ -531,9 +552,9 @@ p {
   }
 
   .shbutton {
-    margin-left: 15%;
-    margin-right: 15%;
-
+    margin-left: auto;
+    margin-right: auto;
+		display: grid;
     margin-bottom: 5%;
   }
   .shtext {
@@ -578,11 +599,10 @@ p {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 36px;
   font-weight: 600;
-  margin-left: 45%;
-  margin-right: 45%;
+	display: grid;
+	margin: auto;
   border-radius: 3%;
 }
 
@@ -613,9 +633,8 @@ p {
 
     font-size: 36px;
     font-weight: 600;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-bottom: 10%;
+		display: grid;
+		margin: auto;
     border-radius: 3%;
   }
 }
