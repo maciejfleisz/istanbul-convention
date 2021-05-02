@@ -453,9 +453,7 @@ p {
 }
 
 .petbutton {
-
-
-  width: 300px;
+	width: 300px;
   background-color: #000000;
   border: none;
   color: #ffe16b;
@@ -468,9 +466,11 @@ p {
   font-weight: bold;
   border-radius: 3%;
 }
-.container {
-
-
+@media screen and (max-width: 1600px) {
+	.petition {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
 }
 
 @media screen and (max-width: 1200px) {
