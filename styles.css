@@ -339,7 +339,6 @@ p {
 /* FEMINOTEKA SECTION */
 
 .femino {
-  height: 681px;
   background-color: #3791ff;
 }
 
@@ -358,6 +357,7 @@ p {
   font-weight: bolder;
   color: #ffffff;
   line-height: 2;
+
 }
 
 .fempic {
@@ -374,6 +374,7 @@ p {
   margin-left: 13%;
   margin-top: 2%;
 	width: 300px;
+	margin-bottom: 5%;
 }
 @media screen and (max-width: 1000px) {
 	.femino {
@@ -413,8 +414,9 @@ p {
 
 .petition {
   background-color: #F4F4F4;
-  height: 1882px;
+
 	padding-top: 10%;
+
 	padding-bottom: 5%;
 	padding-left: 24%;
 	padding-right: 24%;
@@ -422,8 +424,7 @@ p {
 
 .petfield {
 	background-color: #ffffff;
-	width: 1054px;
-	height: 1500px;
+
 }
 
 .petitle {
@@ -450,6 +451,7 @@ p {
 	margin-left: 34%;
 	margin-right: 34%;
 	margin-top: 5%;
+	margin-bottom: 10%;
 	width: 300px;
 	background-color: #000000;
 	border: none;
@@ -486,7 +488,8 @@ p {
 	}
 	.petbutton {
 
-		margin-left:15%;
+		margin-left:40%;
+		margin-right: 40%;
 		margin-bottom: 10%;
 		width: 300px;
 		background-color: #000000;
@@ -516,7 +519,7 @@ p {
 }
 
 .shbutton {
-		margin-left: 55%;
+		margin-left:35%;
 		padding-left: 5%;
 }
 
@@ -528,6 +531,8 @@ p {
 	padding-right: 45%;
 	margin-top: -4%;
 }
+
+
 @media screen and (max-width: 1200px) {
 	.share {
 		height: auto;
@@ -543,7 +548,9 @@ p {
 }
 
 .shbutton {
-		margin-left: 2%;
+		margin-left: 15%;
+		margin-right: 15%;
+
 		margin-bottom: 5%;
 }
 .shtext {
@@ -623,8 +630,8 @@ p {
 
 		font-size: 36px;
 		font-weight: 600;
-		margin-left: 23%;
-		margin-right: 20%;
+		margin-left: 40%;
+		margin-right: 40%;
 		margin-bottom: 10%;
 		border-radius: 3%;
 	}
