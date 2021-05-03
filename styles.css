@@ -29,19 +29,19 @@ p {
   height: 150px;
   font-size: 22;
   font-weight: 800;
-  background: #3791ff;
+
 }
 .head-img {
   padding-top: 10%;
   margin: 0px;
   width: 50%;
-  background: #3791ff;
+  background-image: url("assets/back.png");
 }
 .head-img2 {
   padding-top: 36%;
   margin: 0px;
   width: 70%;
-  background: #3791ff;
+  background-image: url("assets/back.png");
 }
 .headjoin {
   background: #3791ff;
